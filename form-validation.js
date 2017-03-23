@@ -51,7 +51,7 @@ function validatePassword()
   var passEntered = document.getElementById("pass").value;
   var userSpace = userEntered.includes(" ");
   //Show message that there is an error with the password...
-  if (passEntered.toLowerCase() == "password" ){
+  if (passEntered.toLowerCase() == "password"){
     document.getElementById("passwordError").innerHTML="Password cannot be 'password'";
     document.getElementById("passwordError").classList.remove("hidden-message");
     document.getElementById("passwordError").classList.add("shown-message");
